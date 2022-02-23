@@ -1,3 +1,17 @@
+@import '/src/styles/var';
+
 .card {
-	border: 1px solid black;
+	border: 2px solid $primary;
+	border-radius: 0.8rem;
+	cursor: pointer;
+	img {
+		width: 100%;
+		min-height: 146px;
+	}
+	p {
+		padding: 0.4rem;
+		border-top: 2px solid $primary;
+		font-size: 0.9rem;
+		color: $primary;
+	}
 }

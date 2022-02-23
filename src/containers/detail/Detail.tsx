@@ -22,7 +22,7 @@ function Detail({ data }: Props) {
         <img src={data.img} alt={`${data.name}`} />
         <div>
           <h2>이름: {data.name}</h2>
-          <p>타입: {data.type.map((item) => item).join("")}</p>
+          <p>타입: {data.type.map((item) => `${item} `)}</p>
           <p>신장: {data.height}</p>
           <p>몸무게: {data.weight}</p>
         </div>
