@@ -1,0 +1,16 @@
+.type_button {
+	margin: 2px;
+	padding: 4px 12px;
+	border: none;
+	border: 2px solid var(--my-color);
+	border-radius: 2rem;
+	background-color: white;
+	color: var(--my-color);
+	cursor: pointer;
+	&:hover,
+	&.on {
+		color: white;
+		background-color: var(--my-color);
+		border-color: var(--my-color);
+	}
+}
